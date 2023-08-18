@@ -24,7 +24,7 @@ requirements = [
     'scipy',
     'pybullet>=2.7.5',
     'imageio',
-    'ghalton',
+    'ghalton==0.6.1',
     'recordclass',
     'psutil',
 ]
