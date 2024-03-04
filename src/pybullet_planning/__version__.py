@@ -1,4 +1,4 @@
-__title__ = 'pybullet_planning'
+__title__ = 'pybullet_planning_eaa'
 __description__ = 'a suite of utility functions to facilitate robotic planning related research on the pybullet physics simulation engine.'
 __url__ = 'https://github.com/yijiangh/pybullet_planning'
 __version__ = '0.5.1'
