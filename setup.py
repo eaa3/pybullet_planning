@@ -41,11 +41,11 @@ setup(
     author=about['__author__'],
     author_email=about['__author_email__'],
     url=about['__url__'],
-    long_description='%s\n%s' % (
-        re.compile('^.. start-badges.*^.. end-badges', re.M |
-                   re.S).sub('', read('README.md')),
-        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.md'))
-    ),
+    # long_description='%s\n%s' % (
+    #     re.compile('^.. start-badges.*^.. end-badges', re.M |
+    #                re.S).sub('', read('README.md')),
+    #     re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.md'))
+    # ),
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
